@@ -2,7 +2,7 @@ function ISprime(num){
     if(num<=1){
         return false
     }
-    for(let i = 1 ; i < num ; i++){
+    for(let i = 2 ; i < num ; i++){
         if (num%i === 0){
             return false
         }
@@ -10,4 +10,5 @@ function ISprime(num){
     return true
 }
 
-ISprime(7)
+ans = ISprime(7)
+console.log(ans)
