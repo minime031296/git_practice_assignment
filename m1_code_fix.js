@@ -10,7 +10,5 @@ function ISprime(num){
     return true
 }
 
-
-let ans = ISprime(7);
+ans = ISprime(7)
 console.log(ans)
-
