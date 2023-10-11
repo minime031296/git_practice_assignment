@@ -10,3 +10,5 @@ function ISprime(num){
     return true
 }
 
+ans = ISprime(num)
+console.log(ans)
